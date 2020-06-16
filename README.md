@@ -18,16 +18,18 @@
 - We see that there are alot of houses with 5000/- price per square feet rate
 - Removal of Data where the number of *bathrooms* is higher than *number of bhk+2*
 ---
-ML MODEL:
+## ML MODEL:
 - Performed One hot encoding to represent the categorical values in binary form since machine learning algorithms cannot operate on label data directly.
 -  I also split the data into train and tests sets with a test size of 20%.
 Model Used:- 
-1. Multiple Linear Regression - r^2 value of 0.86
+1. Multiple Linear Regression - r^2 value of **0.86**
 ---
-# Prediction:
+## Prediction:
 Built a function to predict the house price with location, number of Square foot area, Bathroom, and BHK.
 
 ![](/Images/Pre1.png)
+
+The prices mentioned are in Lakhs(Indian Currenccy)
 
 
 
