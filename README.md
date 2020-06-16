@@ -1,7 +1,8 @@
 # Bangalore-house's-rate
 
--Created a model that predicts Bangalore house rate to help people to know about the prices of house in various places without the need of contacting different agents for the same. 
+- Created a model that predicts Bangalore house rate to help people to know about the prices of house in various places without the need of contacting different agents for the same. 
 - Data was collected from [Kaggle](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
+- Data shape is 13320 rows and 9 columns.
 ---
 ## EDA-
 - Column 'total_sqft' was provided in avergare terms i.e 1195 - 1440, converted the same to float by taking the average of the numbers.
