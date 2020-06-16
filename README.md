@@ -8,9 +8,13 @@
 - Created a new column - 'price_per_sqft' for better analysis.
 - Scaled down the number of locations to **241** from **1287** since most of the location occured less than 10 times.
 - On an average, the ratio between total_sqrt_foot and number of BHK should always be 300, hence we removed all the entries with values lesser than 300.
+
 - ![](/Images/p1.png)
+
 -Here we find that min price per sqft is 267 rs/sqft whereas max is 12000000, this shows a wide variation in property prices. Removal of **2214** outliers using **Mean** and **Standard Deviation**
+
 -![](/Images/download%20(4).png)
+
 - We see that there are alot of houses with 5000/- price per square feet rate
 - Removal of Data where the number of *bathrooms* is higher than *number of bhk+2*
 ---
@@ -20,8 +24,9 @@ ML MODEL:
 Model Used:- 
 1. Multiple Linear Regression - r^2 value of 0.86
 ---
-#Prediction:
+# Prediction:
 Built a function to predict the house price with location, number of Square foot area, Bathroom, and BHK.
+
 ![](/Images/Pre1.png)
 
 
