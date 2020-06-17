@@ -13,9 +13,9 @@
 
 - ![](/Images/p1.png)
 
--Here we find that min price per sqft is 267 rs/sqft whereas max is 12000000, this shows a wide variation in property prices. Removal of **2214** outliers using **Mean** and **Standard Deviation**
+- Here we find that min price per sqft is 267 rs/sqft whereas max is 12000000, this shows a wide variation in property prices. Removal of **2214** outliers using **Mean** and **Standard Deviation**
 
--![](/Images/download%20(4).png)
+- ![](/Images/download%20(4).png)
 
 - We see that there are alot of houses with 5000/- price per square feet rate
 - Removal of Data where the number of *bathrooms* is higher than *number of bhk+2*
@@ -31,7 +31,7 @@ Built a function to predict the house price with location, number of Square foot
 
 ![](/Images/Pre1.png)
 
-The prices mentioned are in Lakhs(Indian Currenccy)
+The prices mentioned are in Lakhs(Indian Currency)
 
 ## Deployment
 In this step, I built a **streamlit** API endpoint that was hosted on **Heroku**. The API endpoint takes in a request with a list of values from location, number of Square foot area, Bathroom, and BHK.
