@@ -1,5 +1,6 @@
 # Bangalore-house's-rate
 
+- This notebook is for people who are looking to buy a place in Bangalore city(INDIA)
 - Created a model that predicts Bangalore house rate to help people to know about the prices of house in various places without the need of contacting different agents for the same. 
 - Deployment using **streamlit** on [Heroku](https://bangalore-house-price.herokuapp.com/).
 - Data was collected from [Kaggle](https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data)
